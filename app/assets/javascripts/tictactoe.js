@@ -6,7 +6,6 @@ const spaces = document.getElementsByTagName('td');
 var idGame = "";
 var turn = 0;
 var win = false;
-var tied = false;
 
 function attachListeners() {
   document.getElementById("save").addEventListener('click', function(event){
