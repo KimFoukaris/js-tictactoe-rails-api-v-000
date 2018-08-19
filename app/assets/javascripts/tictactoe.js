@@ -90,10 +90,7 @@ function player() {
 }
 
 function doTurn(square) {
-  checkWinner();
-  if (noTurn === true) {
-    console.log("Game already tied or won");
-  } else if (square.innerHTML === "" && (win !== true && turn !== 9)) {
+  if (square.innerHTML === "" && (win !== true && turn !== 9)) {
     updateState(square);
     turn = turn + 1;
     checkWinner();
