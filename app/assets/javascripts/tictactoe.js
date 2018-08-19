@@ -91,7 +91,7 @@ function player() {
 
 function doTurn(square) {
   checkWinner();
-  if (noTurn = true) {
+  if (noTurn === true) {
     break;
   }
   if (square.innerHTML === "" && (win !== true && turn !== 9)) {
