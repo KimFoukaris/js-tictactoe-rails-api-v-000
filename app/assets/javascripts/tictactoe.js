@@ -67,7 +67,6 @@ function tie(){
     setMessage('Tie game.');
     resetSquares();
     turn = 0;
-    noTurn = true;
 }
 
 function won(square){
@@ -75,7 +74,6 @@ function won(square){
   setMessage("Player " + square + " Won!");
   resetSquares();
   turn = 0;
-  noTurn = true;
 }
 
 function updateState(square) {
